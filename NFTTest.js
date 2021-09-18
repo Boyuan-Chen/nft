@@ -5,7 +5,7 @@ const L2_NODE_WEB3_URL = "https://rinkeby.boba.network";
 
 const main = async () => {
 
-  const pk = "40ed5a206385a773e44d7476f6fa651670566b6f0b1cdaeff837ec06a64851f0"
+  const pk = ""
 
   const L2Web3 = new ethers.providers.JsonRpcProvider(L2_NODE_WEB3_URL);
   const L2Wallet = new ethers.Wallet(pk).connect(L2Web3);
